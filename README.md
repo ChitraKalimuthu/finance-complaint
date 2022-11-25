@@ -1,13 +1,26 @@
 # Finance-Complaint 
+## Deployment Setup
 
-## Architectures
+```yaml
+# Aws Secert 
+AWS_ACCESS_KEY_ID : <your AWS_ACCESS_KEY_ID >
+AWS_SECRET_ACCESS_KEY: <your AWS_SECRET_ACCESS_KEY >
+AWS_DEFAULT_REGION: "ap-south-1" 
+MONGO_DB_URL: <your Mongo Url >
+
+# Gcp Secert 
+GCLOUD_SERVICE_KEY: <json format key>
+GOOGLE_COMPUTE_ZONE: asia-south1
+GOOGLE_PROJECT_ID: <project id from dashboard>
+
+# Image Secrets
+REPOSITORY: finance-complaint
+GAR_IMAGE_NAME: finance-complaint
+IMAGE_TAG: latest
+```
 
 ## WorkFLow setup
 ### Step-1
-Setup secrets 
-```bash
-
-```
 Create .env file
 
 ```
